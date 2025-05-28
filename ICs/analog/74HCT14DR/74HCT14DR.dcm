@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74HCT14DR
+D SN74HCT14DR, Hex Schmitt Trigger Inverter, HCT, 4mA 4.5 ??? 5.5 V 14-Pin SOIC
+K
+F http://www.ti.com/lit/ds/symlink/sn74hct14.pdf
+$ENDCMP
+#
+#End Doc Library

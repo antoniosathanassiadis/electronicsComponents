@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AUIRB24427STR
+D International Rectifier AUIRB24427STR, Dual MOSFET Power Driver, 6A, 12.5  24 V, Dual, 8-Pin SOIC
+K
+F https://www.infineon.com/cms/en/product/power/gate-driver-ics/?
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model L1C1-RYL1000000000
+#/320443/1666567/2.50/3/4/LED
+DEF L1C1-RYL1000000000 LED 0 30 Y Y 1 F N
+F0 "LED" 650 300 50 H V L CNN
+F1 "L1C1-RYL1000000000" 650 200 50 H V L CNN
+F2 "L1C1RYL1000000000" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/L1C1-RYL1000000000.pdf" 650 0 50 H I L CNN
+F4 "LUXEON C Royal Blue LED 440nm-460nm Lumileds L1C1-RYL1000000000 Blue LED, 440  460 nm 3-Pin, Dome Lens SMD package" 650 -100 50 H I L CNN "Description"
+F5 "1.5" 650 -200 50 H I L CNN "Height"
+F6 "997-L1C1-RYL10000000" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Lumileds/L1C1-RYL1000000000?qs=4JX4e57RtWwcQAKHst1xdA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Lumileds" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "L1C1-RYL1000000000" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A 1 0 0 200 R 50 50 0 0 P
+X K 2 0 -200 200 R 50 50 0 0 P
+X EP 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

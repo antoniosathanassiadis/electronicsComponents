@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM311DR
+D LM311DR, Comparator Open Collector/Emitter 0.165????s 12 V, 15 V, 18 V, 24 V, 28 V, 5 V, 9 V 8-Pin SOIC
+K
+F http://www.ti.com/lit/ds/symlink/lm311.pdf
+$ENDCMP
+#
+#End Doc Library

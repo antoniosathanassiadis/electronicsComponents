@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BFR92PE6327HTSA1
+D Infineon BFR92PE6327HTSA1 NPN Transistor, 45 mA, 15 V, 3-Pin SOT-23
+K
+F https://www.infineon.com/dgdl/Infineon-BFR92P-DS-v01_01-en.pdf?fileId=db3a30431400ef68011426fd178506a6
+$ENDCMP
+#
+#End Doc Library
