@@ -1,0 +1,166 @@
+(footprint "RM107772BCB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "solder Pin_ with flat fork, hole diameter 0.9mm, length 10.0mm, width 2.4mm")
+	(tags "solder Pin_ with flat fork")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(layer "F.SilkS")
+		(uuid "aca2ee18-2ef4-4b5a-b80a-6a772483833d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RM107772BCB"
+		(at 0 -7.25 0)
+		(layer "F.Fab")
+		(uuid "5ee87f1a-2283-4f11-9395-f0750d042383")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd95f8e4-42a3-4c17-8495-fdf22ada9350")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55d38b0e-565d-43a8-97df-13fd8ff969fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end -3.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "39e89220-7c04-4ada-bc4a-de32f18076ac")
+	)
+	(fp_circle
+		(center 0 0)
+		(end -4.25 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4aea228f-1565-4c38-af7e-f76d302a4ae2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.75 0)
+		(layer "F.Fab")
+		(uuid "76f6d352-cdb5-4e78-9645-a402b73a4740")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.796 -1.796)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "821562ce-81cd-4b0e-9fee-3a39f458bd5a")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7d26a9b2-4b9c-416c-8ab7-474fd89a1666")
+	)
+	(pad "3" thru_hole circle
+		(at 1.796 1.796)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "82e02e08-3679-4920-a362-dcb3b88c0d11")
+	)
+	(pad "4" thru_hole circle
+		(at 0 2.54)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "67367e92-b179-40f8-b2d8-933e2c210385")
+	)
+	(pad "5" thru_hole circle
+		(at -1.796 1.796)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4d8ca29a-e2a0-4ac9-852e-6b857995ebef")
+	)
+	(pad "6" thru_hole circle
+		(at -2.54 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1b9358c-84af-4b02-967a-a488cc8642be")
+	)
+	(pad "7" thru_hole circle
+		(at -1.796 -1.796)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7ffb31b0-62a5-446c-b96b-34dd4c2242b5")
+	)
+	(pad "8" thru_hole circle
+		(at 0 -2.54)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5a5aa227-c308-40b8-9d98-f8c404d4d165")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
