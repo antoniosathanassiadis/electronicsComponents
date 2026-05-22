@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AFBR-S4N22P014M
+#/19222659/2059978/2.50/4/3/Integrated Circuit
+DEF AFBR-S4N22P014M IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "AFBR-S4N22P014M" 1450 200 50 H V L CNN
+F2 "AFBRS4N22P014M" 1450 100 50 H I L CNN
+F3 "https://docs.broadcom.com/doc/AFBR-S4N22P014M-NUV-MT-SiPM-Data-Sheet" 1450 0 50 H I L CNN
+F4 "NUV-MT Silicon Photomultiplier Array" 1450 -100 50 H I L CNN "Description"
+F5 "1.23" 1450 -200 50 H I L CNN "Height"
+F6 "" 1450 -300 50 H I L CNN "Farnell Part Number"
+F7 "" 1450 -400 50 H I L CNN "Farnell Price/Stock"
+F8 "Avago Technologies" 1450 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AFBR-S4N22P014M" 1450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ANODE_1 A1 1600 -100 200 L 50 50 0 0 P
+X CATHODE_1 A2 1600 0 200 L 50 50 0 0 P
+X ANODE_2 B1 0 -100 200 R 50 50 0 0 P
+X CATHODE_2 B2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

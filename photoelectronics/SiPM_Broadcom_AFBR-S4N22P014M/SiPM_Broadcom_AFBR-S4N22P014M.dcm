@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AFBR-S4N22P014M
+D NUV-MT Silicon Photomultiplier Array
+K
+F https://docs.broadcom.com/doc/AFBR-S4N22P014M-NUV-MT-SiPM-Data-Sheet
+$ENDCMP
+#
+#End Doc Library

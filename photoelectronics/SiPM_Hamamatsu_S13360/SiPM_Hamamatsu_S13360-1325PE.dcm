@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP S13360-1325PE
+D MPPC for precision measurement, Photosensitive area: 1.3 x 1.3 mm, Pixel pitch: 25 um
+K
+F https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/s13360_series_kapd1052e.pdf
+$ENDCMP
+#
+#End Doc Library
