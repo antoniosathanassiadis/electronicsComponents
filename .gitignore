@@ -1,4 +1,5 @@
-**symbol_collection/
-**footprint_collection/
-**model_collection/
+.DS_Store
+**0collection_symbols/
+**0collection_footprints/
+**0collection_models/
 **tests/

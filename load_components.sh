@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sym="*.kicad_sym"
-sym_dir="symbol_collection"
+sym_dir="0collection_symbols"
 rm -rf $sym_dir
 mkdir -p $sym_dir
 echo "loading symbols into $sym_dir/ ..."
@@ -14,7 +14,7 @@ done
 
 echo " "
 foot="*.kicad_mod"
-foot_dir="footprint_collection"
+foot_dir="0collection_footprints"
 rm -rf $foot_dir
 mkdir -p $foot_dir
 echo "loading footprints into $foot_dir/ ..."
@@ -27,7 +27,7 @@ done
 
 echo " "
 mod="*.step"
-mod_dir="model_collection"
+mod_dir="0collection_models"
 rm -rf $mod_dir
 mkdir -p $mod_dir
 echo "loading 3D models into $mod_dir/ ..."
@@ -39,9 +39,9 @@ for file in $mod */$mod */*/$mod */*/*/$mod */*/*/*/$mod; do
 done
 
 echo " "
-n_sym=$(ls symbol_collection/ | wc -l)
-n_foot=$(ls footprint_collection/ | wc -l)
-n_mod=$(ls model_collection/ | wc -l)
+n_sym=$(ls 0collection_symbols/ | wc -l)
+n_foot=$(ls 0collection_footprints/ | wc -l)
+n_mod=$(ls 0collection_models/ | wc -l)
 echo "summary"
 echo "   $n_sym symbols loaded"
 echo "   $n_foot footprints loaded"
