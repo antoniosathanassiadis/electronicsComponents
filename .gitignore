@@ -1,5 +1,4 @@
-**.DS_Store
-**0collection_symbols/
-**0collection_footprints/
-**0collection_models/
+.DS_Store
+build/
+Pipfile.lock
 **tests/
