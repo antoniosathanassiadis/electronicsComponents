@@ -1,10 +1,10 @@
 
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "RASPBERRY_PI_4B_4GB" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "RaspberryPi_4B" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -20.32 33.528 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Value" "RASPBERRY_PI_4B_4GB" (id 1) (at -20.32 -33.02 0)
+    (property "Value" "RaspberryPi_4B" (id 1) (at -20.32 -33.02 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
     (property "Footprint" "RASPBERRY_PI_4B_4GB:MODULE_RASPBERRY_PI_4B_4GB" (id 2) (at 0 0 0)
@@ -37,7 +37,7 @@
     (property "MP" "RASPBERRY PI 4B/4GB" (id 12) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Description" "\n                        \n                            BCM2711 Raspberry Pi 4 Model B 4GB - ARM® Cortex®-A72 MPU Embedded Evaluation Board\n                        \n" (id 13) (at 0 0 0)
+    (property "Description" "Raspberry Pi 4 Model B 4 GB" (id 13) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "MANUFACTURER" "Raspberry Pi" (id 14) (at 0 0 0)
@@ -49,7 +49,7 @@
     (property "SNAPEDA_PN" "RASPBERRY PI 4B/4GB" (id 16) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (symbol "RASPBERRY_PI_4B_4GB_0_0"
+    (symbol "RaspberryPi_4B_0_0"
       (rectangle (start -20.32 -30.48) (end 20.32 33.02)
         (stroke (width 0.254)) (fill (type background))
       )

@@ -1,15 +1,18 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "LM555CN_NOPB" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+  (symbol "LMC555" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Description" "TI LMC555 CMOS timer - graphics inherited from LM555, verify before use" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (property "Reference" "" (id 0) (at 30.48 10.16 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "LM555CN/NOPB" (id 1) (at 30.48 7.62 0)
+    (property "Value" "LMC555" (id 1) (at 30.48 7.62 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "N08E" (id 2) (at 0 0 0)
+    (property "Footprint" "AA_active:LMC555_THT" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "https://www.ti.com/lit/gpn/lm555" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://www.ti.com/lit/gpn/lmc555" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "ki_keywords" "LM555CN/NOPB" (id 4) (at 0 0 0)
@@ -21,7 +24,7 @@
     (property "ki_fp_filters" "N08E" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LM555CN_NOPB_0_1"
+    (symbol "LMC555_0_1"
       (polyline
         (pts
           (xy 7.62 5.08)

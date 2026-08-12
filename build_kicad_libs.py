@@ -99,6 +99,13 @@ def top_level_blocks(text: str) -> list[str]:
 SYM_NAME_RE = re.compile(r'\(\s*symbol\s+"((?:[^"\\]|\\.)*)"')
 FP_PROP_RE = re.compile(r'(\(\s*property\s+"Footprint"\s+)"(?:[^"\\]|\\.)*"')
 MODEL_RE = re.compile(r'(\(\s*model\s+)"((?:[^"\\]|\\.)*)"')
+FP_VAL_RE = re.compile(r'\(\s*property\s+"Footprint"\s+"((?:[^"\\]|\\.)*)"')
+
+
+def current_footprint(block: str) -> str:
+    """The Footprint property already stored in the symbol, if any."""
+    m = FP_VAL_RE.search(block)
+    return m.group(1) if m else ""
 
 
 def symbol_name(block: str) -> str | None:
@@ -229,7 +236,7 @@ def main() -> int:
 
     parts = discover()
     warn: list[str] = []
-    stats = {"sym": 0, "fp": 0, "model": 0, "linked": 0}
+    stats = {"sym": 0, "fp": 0, "model": 0, "linked": 0, "kept": 0}
 
     if not args.check:
         if BUILD.exists():
@@ -329,14 +336,20 @@ def main() -> int:
                     names[name] = part.rel
 
                     fp = pick_footprint(name, part.fps)
+                    cur = current_footprint(blk)
+                    cur_stem = cur.split(":", 1)[1] if ":" in cur else ""
                     if fp is not None:
                         blk, changed = set_footprint(
                             blk, f"{fp_index.get(fp.stem, nick)}:{fp.stem}")
                         if changed:
                             stats["linked"] += 1
+                    elif cur_stem and cur_stem in fp_index:
+                        # a default was chosen by hand for a multi-variant part
+                        stats["kept"] += 1
                     elif part.fps:
-                        warn.append(f"{name}: ambiguous footprint, candidates "
-                                    f"{[p.stem for p in part.fps]}")
+                        warn.append(f"{name}: no default footprint, candidates "
+                                    f"{[p.stem for p in part.fps]} - set one in "
+                                    f"the source symbol to silence this")
                     else:
                         warn.append(f"{name}: no footprint in {part.rel}")
                     blocks.append(blk)
@@ -367,7 +380,8 @@ def main() -> int:
     # ---- report ----------------------------------------------------------
     print(f"{stats['sym']} symbols, {stats['fp']} footprints, "
           f"{stats['model']} 3D models -> {BUILD}")
-    print(f"{stats['linked']} symbol->footprint links repaired\n")
+    print(f"{stats['linked']} symbol->footprint links repaired, "
+          f"{stats['kept']} hand-set defaults kept\n")
     if warn:
         print(f"{len(warn)} item(s) need attention:")
         for w in warn:

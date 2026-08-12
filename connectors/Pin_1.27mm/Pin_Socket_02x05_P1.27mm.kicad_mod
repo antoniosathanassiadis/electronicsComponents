@@ -245,7 +245,7 @@
 		(uuid "772dab2e-3a67-4f43-abf6-daca6b05df49")
 	)
 	(embedded_fonts no)
-	(model "62201021821.stp"
+	(model "${AA_3DMODELS}/Pin_Socket_02x05_P1.27mm.step"
 		(offset
 			(xyz 2.539999924 0.6299999858 2.160000053)
 		)

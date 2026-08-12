@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "AFBR-S4N22P014M"
+	(symbol "SiPM_Broadcom_AFBR-S4N22P014M"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -44,7 +44,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NUV-MT Silicon Photomultiplier Array"
+		(property "Description" "Broadcom AFBR-S4N22P014M SiPM"
 			(at 1.27 -6.858 0)
 			(effects
 				(font
@@ -103,7 +103,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AFBR-S4N22P014M_0_1"
+		(symbol "SiPM_Broadcom_AFBR-S4N22P014M_0_1"
 			(polyline
 				(pts
 					(xy 1.27 -2.54) (xy 1.27 -5.08)
@@ -153,7 +153,7 @@
 				)
 			)
 		)
-		(symbol "AFBR-S4N22P014M_1_1"
+		(symbol "SiPM_Broadcom_AFBR-S4N22P014M_1_1"
 			(polyline
 				(pts
 					(xy -0.635 -5.08) (xy 3.175 -5.08)

@@ -3604,7 +3604,7 @@
 			"ef4bd962-9d53-407b-9d33-e53aac79a826" "fa2c4b9e-e6a1-43e6-bc60-2d7640e348e3"
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/DIP-40_W17.78mm_H8.51mm_Socket.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module_RaspberryPi_Pico.3dshapes/DIP-40_W17.78mm_H8.51mm_Socket.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3616,7 +3616,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -3627,7 +3627,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_AddedHeaders.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_AddedHeaders.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3639,7 +3639,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_AddedHeaders_Socketed.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_AddedHeaders_Socketed.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3651,7 +3651,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_H.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_H.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3663,7 +3663,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_H_Socketed.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_H_Socketed.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3675,7 +3675,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_W.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_W.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3687,7 +3687,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_W_AddedHeaders.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_W_AddedHeaders.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3699,7 +3699,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_W_AddedHeaders_Socketed.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_W_AddedHeaders_Socketed.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3711,7 +3711,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_WH.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_WH.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3723,7 +3723,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_WH_Socketed.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_WH_Socketed.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)

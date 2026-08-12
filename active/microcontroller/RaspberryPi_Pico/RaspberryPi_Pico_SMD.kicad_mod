@@ -2889,7 +2889,7 @@
 			"fcb9c319-e68a-44c9-aa9d-733027c90fe2" "fe400ceb-b786-4845-8b0b-7fb457bfbe2d"
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -2900,7 +2900,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_W.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_W.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)

@@ -174,7 +174,7 @@
 		(uuid "a7004602-7352-4057-b104-c75aad8d78ff")
 	)
 	(embedded_fonts no)
-	(model "L1C1-RYL1000000000.stp"
+	(model "${AA_3DMODELS}/LED_UV_L1C1-RYL.step"
 		(offset
 			(xyz 0 0 0)
 		)

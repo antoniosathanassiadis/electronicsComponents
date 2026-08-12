@@ -1,9 +1,12 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "EPK.00.250.NTN" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+  (symbol "LEMO_00_Socket" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Description" "LEMO EPK.00.250.NTN 00-series coaxial socket" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (property "Reference" "J" (id 0) (at 8.89 6.35 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "EPK.00.250.NTN" (id 1) (at 0 0 0)
+    (property "Value" "LEMO_00" (id 1) (at 0 0 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "CONN_EPK.00.250.NTN_LMO" (id 2) (at 0 0 0)
@@ -21,7 +24,7 @@
     (property "ki_fp_filters" "CONN_EPK.00.250.NTN_LMO" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "EPK.00.250.NTN_1_1"
+    (symbol "LEMO_00_Socket_1_1"
       (polyline
         (pts
           (xy 10.16 0)
@@ -219,7 +222,7 @@
         (number "5" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "EPK.00.250.NTN_1_2"
+    (symbol "LEMO_00_Socket_1_2"
       (polyline
         (pts
           (xy 7.62 0)

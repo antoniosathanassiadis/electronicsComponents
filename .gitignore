@@ -2,3 +2,7 @@
 build/
 Pipfile.lock
 **tests/
+*.bak
+0collection_symbols/
+0collection_footprints/
+0collection_models/

@@ -226,7 +226,7 @@
 		(uuid "80fcaf0c-557e-4625-8992-fcffbd7de023")
 	)
 	(embedded_fonts no)
-	(model "62131021021.stp"
+	(model "${AA_3DMODELS}/Pin_Header_02x05_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

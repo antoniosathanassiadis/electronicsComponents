@@ -1,16 +1,19 @@
 
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "LM393P" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "LM393" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Description" "TI LM393P dual differential comparator" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (property "Reference" "U" (id 0) (at -12.7 13.7 0.0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Value" "LM393P" (id 1) (at -12.7 -16.7 0.0)
+    (property "Value" "LM393" (id 1) (at -12.7 -16.7 0.0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
     (property "Footprint" "LM393P:DIP794W45P254L959H508Q8" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (symbol "LM393P_0_0"
+    (symbol "LM393_0_0"
       (rectangle (start -12.7 -12.7) (end 12.7 12.7)
         (stroke (width 0.41)) (fill (type background))
       )

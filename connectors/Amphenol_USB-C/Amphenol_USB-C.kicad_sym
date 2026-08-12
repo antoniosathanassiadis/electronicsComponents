@@ -1,10 +1,13 @@
 
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "12402012E212A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "Amphenol_USB-C" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Description" "Amphenol 12402012E212A USB-C receptacle" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (property "Reference" "J" (id 0) (at -12.7 13.462 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Value" "12402012E212A" (id 1) (at -12.7 -26.162 0.0)
+    (property "Value" "USB-C" (id 1) (at -12.7 -26.162 0.0)
       (effects (font (size 1.27 1.27)) (justify top left))
     )
     (property "Footprint" "12402012E212A:AMPHENOL_12402012E212A" (id 2) (at 0 0 0)
@@ -22,7 +25,7 @@
     (property "MANUFACTURER" "Amphenol" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (symbol "12402012E212A_0_0"
+    (symbol "Amphenol_USB-C_0_0"
       (rectangle (start -12.7 -25.4) (end 12.7 12.7)
         (stroke (width 0.254)) (fill (type background))
       )

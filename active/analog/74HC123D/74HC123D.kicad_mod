@@ -301,7 +301,7 @@
 		(uuid "6206447e-e149-4133-9391-e0db04e3a19d")
 	)
 	(embedded_fonts no)
-	(model "74HC123D,653.stp"
+	(model "${AA_3DMODELS}/74HC123D.step"
 		(offset
 			(xyz 6.699999709 4.249999936 -4.239999707)
 		)

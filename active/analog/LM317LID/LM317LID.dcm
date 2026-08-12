@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP LM317LID
-D Texas Instruments LM317LID, Single Linear Voltage Regulator, 100mA Adjustable 1.2  32 V, 8-Pin SOIC
-K
-F http://www.ti.com/lit/gpn/LM317L
-$ENDCMP
-#
-#End Doc Library

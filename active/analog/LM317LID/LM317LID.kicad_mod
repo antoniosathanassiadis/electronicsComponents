@@ -253,7 +253,7 @@
 		(uuid "bb942386-9821-436c-8971-65f7fe7f35f7")
 	)
 	(embedded_fonts no)
-	(model "LM317LID.stp"
+	(model "${AA_3DMODELS}/LM317LID.step"
 		(offset
 			(xyz 0 0 0)
 		)
