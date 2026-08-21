@@ -43,7 +43,7 @@ BUILD = ROOT / "build"
 MODEL_VAR = f"${{{PREFIX}_3DMODELS}}"   # ${AA_3DMODELS}
 LIB_VAR = f"{PREFIX}_LIB"               # env var pointing at build/
 
-CATEGORIES = ["active", "passive", "connectors", "photoelectronics",
+CATEGORIES = ["active", "passive", "cables", "connectors", "photoelectronics",
               "mechanics", "devices"]
 
 # Symbol files that are verbatim copies of libraries shipped with KiCad.
