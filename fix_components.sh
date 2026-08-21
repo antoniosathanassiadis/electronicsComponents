@@ -172,6 +172,8 @@ photoelectronics/SiPM_Hamamatsu_S13360/SiPM_Hamamatsu_S13360-1325PE.kicad_sym|S1
 connectors/Pin_1.27mm/Pin_Header_02x05_P1.27mm.kicad_sym|62131021021|Pin_Header_02x05_P1.27mm|Conn_02x05_1.27mm|Wuerth 62131021021 2x5 pin header, 1.27 mm pitch
 connectors/Pin_1.27mm/Pin_Socket_02x05_P1.27mm.kicad_sym|62201021821|Pin_Socket_02x05_P1.27mm|Conn_02x05_1.27mm|Wuerth 62201021821 2x5 pin socket, 1.27 mm pitch
 passive/ESD9B5-0ST5G/ESD9B5-0ST5G.kicad_sym|ESD9B5.0ST5G|ESD9B5-0ST5G|ESD9B5-0ST5G|onsemi ESD9B5.0ST5G ESD protection diode
+connectors/Molex_SSMCX_1p37mm/Molex_SSMCX_1p37mm.kicad_sym|73413-0040|Molex_SSMCX_1p37mm|SSMCX|Molex 73413-0040 SSMCX connector, 1.37 mm
+cables/FCF8-20-01-L-12p00/FCF8-20-01-L-12p00.kicad_sym|FCS8-20-01-L-S-A-TR|FCF8-20-01-L-12p00|FCF8-20-01-L-12p00|Samtec FCF8-20-01-L-12p00 flat flex cable assembly, 20 position
 "
 # STM32G473CBT6 is left alone on purpose: the MPN reads better in a schematic
 # than the file name STM32G4-73CBT6-LQFP48 does.
