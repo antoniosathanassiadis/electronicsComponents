@@ -1,0 +1,251 @@
+(footprint "SiPM_Hamamatsu_S13360-3050PE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Hamamatsu S13360-3025PE/-3050PE/-3075PE MPPC (SiPM), 3x3 mm active area, 4.35x3.85x1.45 mm glass-epoxy SMD, land pattern KAPDC0057EA (datasheet KAPD1052E)")
+	(tags "SiPM MPPC Hamamatsu S13360")
+	(property "Reference" "U**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "38c57b96-c82b-4a1e-804e-77ac42457bac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "S13360-3050PE"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "251099ee-8bb2-48ed-960a-1d529509bb94")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/s13360_series_kapd1052e.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95f390f2-e8d7-4cc9-baf5-3966decbcfb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Hamamatsu S13360-3025PE/-3050PE/-3075PE MPPC, pad 1 = anode, pad 2 = cathode"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0a79582-4491-4d4e-b674-1a71746dd224")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.175 -1.925)
+		(end 2.175 -1.925)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80947970-a820-4f6b-b101-956cbdfa2c55")
+	)
+	(fp_line
+		(start -2.175 1.925)
+		(end 2.175 1.925)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1bebdfe-7753-46b7-8f8e-f8075e8c0bb8")
+	)
+	(fp_circle
+		(center 2.6 1.1)
+		(end 2.7 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "078fd5fa-0ce8-4d83-9b73-ed588b54299d")
+	)
+	(fp_line
+		(start -2.95 -2.25)
+		(end 2.95 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12666d5d-3b20-4eea-8d3b-dcf493e21707")
+	)
+	(fp_line
+		(start 2.95 -2.25)
+		(end 2.95 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "228c1bbc-fa36-4203-ba23-8f952bda167a")
+	)
+	(fp_line
+		(start 2.95 2.25)
+		(end -2.95 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8c8fd009-b991-4545-9d6f-bbfc7ab4e109")
+	)
+	(fp_line
+		(start -2.95 2.25)
+		(end -2.95 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d80d38e5-b727-4a6b-8804-4d12b6835b10")
+	)
+	(fp_line
+		(start -2.175 -1.925)
+		(end 2.175 -1.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "066cb466-7b62-465a-b82e-bd74353ab31d")
+	)
+	(fp_line
+		(start 2.175 -1.925)
+		(end 2.175 1.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5607c97b-b991-48d2-b867-0aa3b2d1072f")
+	)
+	(fp_line
+		(start 2.175 1.425)
+		(end 1.675 1.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6129ecc-fabd-4459-b082-29d9de9af71c")
+	)
+	(fp_line
+		(start 1.675 1.925)
+		(end -2.175 1.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3897a9bc-cde5-46c5-a130-bd200281eb21")
+	)
+	(fp_line
+		(start -2.175 1.925)
+		(end -2.175 -1.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78f47c76-c4f7-4e1d-a2f3-8f197ce93c33")
+	)
+	(fp_line
+		(start -1.25 -1.5)
+		(end 1.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.Fab")
+		(uuid "e0de2e7e-f643-42ae-80a5-1db370f2f939")
+	)
+	(fp_line
+		(start 1.75 -1.5)
+		(end 1.75 1.5)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.Fab")
+		(uuid "b4689057-055d-4708-9afe-b1903b228588")
+	)
+	(fp_line
+		(start 1.75 1.5)
+		(end -1.25 1.5)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.Fab")
+		(uuid "6cc80aeb-39f8-4692-abbe-4f7abf513e08")
+	)
+	(fp_line
+		(start -1.25 1.5)
+		(end -1.25 -1.5)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.Fab")
+		(uuid "1f639c9a-c17c-477e-83a7-416cb9ffcb8f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "03634b3c-41ca-431a-8e95-490c18918e7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 1.1)
+		(size 4.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "30e92409-413b-4ef5-9ccb-89ec3e4081f9")
+	)
+	(pad "2" smd rect
+		(at 0 -1.1)
+		(size 4.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dc660848-a178-4808-aad1-866a5b4de463")
+	)
+	(embedded_fonts no)
+	(model "SiPM_Hamamatsu_S13360-3050PE.step"
+		(offset
+			(xyz 0.25 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
