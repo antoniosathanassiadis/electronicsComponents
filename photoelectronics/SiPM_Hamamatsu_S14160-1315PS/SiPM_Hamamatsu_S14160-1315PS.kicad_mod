@@ -230,7 +230,7 @@
 		(uuid "86f8b9c7-f7e3-4cfb-b38b-7ceee4352bf6")
 	)
 	(embedded_fonts no)
-	(model "S13360-1325PE.stp"
+	(model "${AA_3DMODELS}/SiPM_Hamamatsu_S14160-1315PS.step"
 		(offset
 			(xyz 0 0 0)
 		)

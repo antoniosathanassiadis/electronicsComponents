@@ -237,7 +237,7 @@
 		(uuid "baf3455a-b6a7-4993-80f4-f6cf2d521586")
 	)
 	(embedded_fonts no)
-	(model "SiPM_Hamamatsu_S14160-3015PS.step"
+	(model "${AA_3DMODELS}/SiPM_Hamamatsu_S14160-3015PS.step"
 		(offset
 			(xyz 0.25 0 0)
 		)
